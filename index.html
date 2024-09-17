@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Лабораторная работа №1</title>
+	<script type="text/javascript">
+		function factorial (a){
+			var fact = 1;
+			if (a === 0) {
+				return 1;
+			}
+			for(var d = 1; d <= a; d++){
+				fact = fact * d;
+			}
+			return fact;
+		}
+		function cosx(){
+		var i = Number(document.forms["form"].elements["i"].value);
+		var x = Number(document.forms["form"].elements["x"].value);
+		var sum = 0;
+		if (Math.abs(x)<i) {
+				for (var n = 0; n <= i; n++) {
+					sum = sum+((((-1)**n)*(x**(2*n)))/(factorial(2*n)));
+				}
+				document.write(sum);
+			}
+
+			else{
+				document.write("Ограничитель не может быть меньше x");
+			}
+		}
+	</script>
+<style type="text/css">
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+section {
+  padding: 90px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.button{
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: white;
+}
+</style>
+</head>
+<body>
+	<section>
+    <div class="container">
+	<form id="form">
+		<input id="i" type="text" name="" placeholder="Введите ограничитель">
+		<input id="x" type="text" name="" placeholder="Введите x">
+		<input class="button" onclick="cosx()" type="submit" name="" value="Отправить">
+	</form>
+	</div>
+	</section>
+</body>
+</html>

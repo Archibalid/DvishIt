@@ -96,6 +96,7 @@ p{
 }
 
 .cart-img{
+  float: right;
   display: block;
   margin: auto;
   margin-top: 150px;

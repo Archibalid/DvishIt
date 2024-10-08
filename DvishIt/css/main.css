@@ -1,0 +1,181 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../img/cover.png");
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionA{
+  width: 55%;
+  min-height: 100vh;
+  float: left;
+  background-color: #0C0B0B;
+}
+
+.sectionB{
+  width: 45%;
+  min-height: 100vh;
+  float: right;
+}
+
+/* ========== content =========*/
+
+h1{
+  font-family: Bebas Neue;
+  color: white;
+}
+
+.heading{
+  font-weight: 400px;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+p{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-main{
+  margin-top: 100px;
+  line-height: 21.78px;
+  text-align: center;
+  color: #737373;
+}
+
+.logo-main{
+  display: block;
+  margin: auto;
+  margin-top: 170px;
+  width: 70px;
+  height: 70px;
+  padding: 19.66px 20.84px 19.08px 21.5px;
+}
+
+.logo-auth{
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 70px;
+  height: 70px;
+  padding: 19.66px 20.84px 19.08px 21.5px;
+}
+
+.button-reg-main{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-reg-main a{
+  text-align: center;
+  width: 300px;
+  border-radius: 12.55px;
+  font-family: Inter;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+  background-color: #03B4FB;
+}
+
+.button-reg-main a:hover{
+  background-color: #0d6f97;
+  color: #b7b7b7;
+}
+
+.button-login-main{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-login-main a{
+  text-align: center;
+  border-radius: 12.55px;
+  font-family: Inter;
+  color: #737373;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.cart-img{
+  float: right;
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+  width: 700px;
+  height: 700px;
+  border-radius: 50px;
+}
+
+/* ========== content-2 =========*/
+
+.wrapper {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+}
+
+.educational-company{
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: right;
+  top: 40px;
+}
+
+.educational-company a{
+  text-decoration: underline;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.35px;
+  color: white;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  border-radius: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+input,
+textarea {
+  text-align: center;
+  width: 100px;
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}

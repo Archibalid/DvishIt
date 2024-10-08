@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionA{
+  width: 55%;
+  min-height: 100vh;
+  float: left;
+  background-color: #0C0B0B;
+}
+
+.sectionB{
+  width: 45%;
+  min-height: 100vh;
+  float: right;
+  background-image: url("../img/cover.png");
+}
+
+/* ========== content =========*/
+
+h1{
+  font-family: Bebas Neue;
+  color: white;
+}
+
+.heading{
+  font-weight: 400px;
+  font-size: 100px;
+  text-align: center;
+  line-height: 90px;
+  margin-top: 60px;
+}
+
+p{
+  margin-top: 100px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: center;
+  color: #737373;
+}
+
+.logo-main{
+  display: block;
+  margin: auto;
+  margin-top: 170px;
+  width: 70px;
+  height: 70px;
+  padding: 19.66px 20.84px 19.08px 21.5px;
+}
+
+.button-reg-main{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-reg-main a{
+  text-align: center;
+  width: 300px;
+  border-radius: 12.55px;
+  font-family: Inter;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+  background-color: #03B4FB;
+}
+
+.button-reg-main a:hover{
+  background-color: #0d6f97;
+  color: #b7b7b7;
+}
+
+.button-login-main{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-login-main a{
+  text-align: center;
+  border-radius: 12.55px;
+  font-family: Inter;
+  color: #737373;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.cart-img{
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+  width: 700px;
+  height: 700px;
+  border-radius: 50px;
+}

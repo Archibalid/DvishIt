@@ -24,6 +24,93 @@ a {
   float: right;
 }
 
+/* ========== header =========*/
+
+header {
+  height: 58px;
+  padding: 15px 40px;
+  background-color: white;
+  transition: all 0.25s ease;
+  display: flex;
+  border-bottom: 2px solid #03B4FB;
+}
+
+.icon-profile{
+  height: 51px;
+  width: 51px;
+}
+
+.icon-messege{
+  height: 40px;
+  width: 47px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  margin: 0 50px;
+  padding: 10px 5px 15px 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  color: black;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  color: #03B4FB;
+}
+
+.nav-logo{
+  width: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link-main {
+  color: #03B4FB;
+  font-weight: 700;
+}
+
+.user-details span {
+  margin-left: 20px;
+  padding: 0 15px 0px 15px;
+}
+
+.user-details{
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.user-details span:hover {
+  cursor: pointer;
+}
+
 /* ========== content =========*/
 
 h1{
@@ -139,6 +226,15 @@ p{
   padding-left: 25px;
   padding-right: 25px;
   background-color: black;
+}
+
+.wrapper-menu {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
 }
 
 .educational-company{

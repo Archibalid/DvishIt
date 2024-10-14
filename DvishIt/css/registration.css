@@ -1,0 +1,249 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../img/cover.png");
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label{
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+input:focus{
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+}
+
+.icon{
+  width: 40px;
+  height: 37px;
+}
+
+.educational-company{
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: right;
+  top: 40px;
+}
+
+.educational-company a{
+  text-decoration: underline;
+  font-family: "Montserrat" sans-serif;
+  font-size: 20px;
+  line-height: 26.35px;
+  color: white;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 70px;
+  height: 70px;
+  padding: 19.66px 20.84px 19.08px 21.5px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  height: 770px;
+  border-radius: 30px;
+}
+
+.form input{
+  margin-top: 15px;
+}
+.form form{
+  align-items: center;
+}
+.form .button{
+  margin-top: 30px;
+}
+
+.nav-links {
+  display: flex;
+  width: 550px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  align-items: center;
+  border-bottom: 3px solid #657E92;
+}
+
+.nav-links span{
+  font-size: 40px;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.nav-links-active{
+  color: #03B4FB;
+  font-weight: 700;
+}
+
+.email{
+  width: 500px;
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.password{
+  width: 500px;
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.fio{
+  width: 500px;
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.phone{
+  width: 500px;
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.code{
+  width: 500px;
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.password-double{
+  width: 500px;
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.checkboxs{
+  display: flex;
+  align-items: baseline;
+}
+
+.custom-radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.custom-radio+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.custom-radio+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.custom-radio:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #03B4FB;
+}
+.custom-radio:not(:disabled):active+label::before {
+  background-color: #03B4FB;
+  border-color: #03B4FB;
+}
+.custom-radio:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom-radio:focus:not(:checked)+label::before {
+  border-color: #03B4FB;
+}
+.custom-radio:checked+label::before {
+  border-color: #03B4FB;
+  background-color: #03B4FB;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+.custom-radio:disabled+label::before {
+  background-color: #03B4FB;
+}
+
+.button{
+  padding: 15px;
+  margin-top: 60px;
+  width: 531.6px;
+  background-color: #03B4FB;
+  color: white;
+  transition: 0.3s;
+  border-radius: 100px;
+  font-size: 18px;
+  border: none;
+}
+
+.button-code{
+  padding: 15px;
+  width: 331.6px;
+  background-color: #03B4FB;
+  color: white;
+  transition: 0.3s;
+  border-radius: 100px;
+  font-size: 18px;
+  border: none;
+}
+
+.button:hover{
+  background-color: #0d6f97;
+  color: #b7b7b7;
+  cursor: pointer;
+}
+
+.button-code:hover{
+  background-color: #0d6f97;
+  color: #b7b7b7;
+  cursor: pointer;
+}

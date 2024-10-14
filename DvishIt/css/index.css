@@ -1,0 +1,109 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../img/cover.png");
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionA{
+  width: 55%;
+  min-height: 100vh;
+  float: left;
+  background-color: #0C0B0B;
+}
+
+.sectionB{
+  width: 45%;
+  min-height: 100vh;
+  float: right;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  margin-top: 170px;
+  width: 70px;
+  height: 70px;
+  padding: 19.66px 20.84px 19.08px 21.5px;
+}
+
+h1{
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+}
+
+.heading{
+  font-weight: 400px;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+p{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text{
+  margin-top: 100px;
+  line-height: 21.78px;
+  text-align: center;
+  color: #737373;
+}
+
+.button-reg{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-reg a{
+  text-align: center;
+  width: 300px;
+  border-radius: 12.55px;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+  background-color: #03B4FB;
+}
+
+.button-reg a:hover{
+  background-color: #0d6f97;
+  color: #b7b7b7;
+}
+
+.button-login{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-login a{
+  text-align: center;
+  border-radius: 12.55px;
+  font-family: "Inter", sans-serif;
+  color: #737373;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.cart-img{
+  float: right;
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+  width: 700px;
+  height: 700px;
+  border-radius: 50px;
+}
